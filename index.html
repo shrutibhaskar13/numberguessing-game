@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Guess the correct number &#129300</h1>
+        <img src="img1.jfif">
+        <h2>Select a number between1-100:</h2>
+        <input type="number" placeholder="Enter the number" id="n1">
+        <h3 id="res">Do you wanna know the result ?</h3>
+        <h3 id="tries">0</h3>
+        <div id="btn">
+            <input type="submit" value="Check" onclick="findNumber()">
+            <input type="submit" value="Reset" onclick="window.location.reload()">
+        </div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
